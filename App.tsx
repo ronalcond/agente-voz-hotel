@@ -42,7 +42,7 @@ const App: React.FC = () => {
     setError(null);
     setTranscripts([]);
 
-    const apiKey = process.env.API_KEY;
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     if (!apiKey) {
         setError("API Key not found in environment.");
         setConnectionState(ConnectionState.ERROR);
