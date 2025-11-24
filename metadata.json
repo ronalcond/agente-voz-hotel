@@ -1,0 +1,7 @@
+{
+  "name": "Sydney Hotel Concierge",
+  "description": "A real-time voice AI receptionist for a Sydney hotel using Gemini Live API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
